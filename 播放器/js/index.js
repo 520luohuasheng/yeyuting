@@ -168,7 +168,7 @@ $(function () {
         */
         $.getJSON('https://api.uomg.com/api/rand.music?', {
             // sort: '深爱总迟解将爱却晚秋'
-		mid:"5457038404"
+		mid:"5352492512"
             ,format: 'json'
         }, function(json, textStatus) {
             if (json.code == 1) {

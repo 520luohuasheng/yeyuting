@@ -231,3 +231,14 @@ $(function()
     
 	initPlayer();
 });
+$("#img01").click(function(){
+        location.href="https://map.baidu.com/search/%E8%B4%B5%E6%B8%AF%E5%B8%82%E7%99%BD%E4%BA%91%E8%81%8C%E4%B8%9A%E5%AD%A6%E6%A0%A1/@12202834.346929725,2629268.6202950003,19z?querytype=s&da_src=shareurl&wd=%E8%B4%B5%E6%B8%AF%E5%B8%82%E7%99%BD%E4%BA%91%E8%81%8C%E4%B8%9A%E5%AD%A6%E6%A0%A1&c=341&src=0&wd2=%E8%B4%B5%E6%B8%AF%E5%B8%82%E6%B8%AF%E5%8C%97%E5%8C%BA&pn=0&sug=1&l=13&b=(12171653.956150562,2613525.1020894237;12233093.956150562,2644533.1020894237)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&sug_forward=eee72253b873f77ad22dd611&device_ratio=1";
+ })
+$("#img001").click(function(){
+	let a=confirm('叶宝爱暑阳嘛？')
+	if(a==true){
+		alert("叶宝爱暑阳")
+	}else{
+		alert("叶宝爱暑阳")
+	}
+})
